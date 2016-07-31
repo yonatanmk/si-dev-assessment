@@ -17,6 +17,13 @@ You will want to check that a gem called Bundler is installed:
 and if it isn't, install it:
   `gem install bundler`
 
+You will also need to install and run PostgreSQL. To check if PostgreSQL is already installed, you can run:
+  `psql --version`.
+If this returns an error, you can download the installer and find installation instructions here:
+  * Mac: https://www.postgresql.org/download/macosx/
+  * Windows: https://www.postgresql.org/download/windows/
+  * Ubuntu: https://www.postgresql.org/download/linux/ubuntu/
+
 You will need a GitHub account if you don't already have one:
   https://github.com/join?source=header-home.
 Once that is done, view this readme on our GitHub page at:
@@ -138,4 +145,3 @@ Now you can create an app on your Heroku account with `heroku create` and then d
 More information on deploying your app to Heroku can be found here: https://devcenter.heroku.com/articles/getting-started-with-rails5.
 
 To submit, make sure your latest changes are pushed both to GitHub and Heroku, and send us a link to your repo and to the deployed app.
-
