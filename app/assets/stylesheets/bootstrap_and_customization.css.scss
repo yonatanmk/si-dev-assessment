@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import 'https://fonts.googleapis.com/css?family=Great+Vibes';
+
+$body-bg:                          #654236;
+$font-family-sans-serif:           'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                    50px;
+$navbar-default-bg:                #FFEEDB;
+$navbar-default-brand-color:       #c0392b;
+$brand-primary:                    #c0392b;
+$jumbotron-bg:                     #CEB992;
+$panel-default-bg:                 #CEB992;
+
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-default .navbar-brand {
+     font-weight: bold;
+     font-size: 200%;
+     color: #A53860;
+     font-family: 'Great Vibes', cursive;
+}
+
+.navbar-default .navbar-nav{
+  font-family: 'Great Vibes', cursive;
+  padding-left: 5px;
+}
+
+#welcome {
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+  font-size: 700%;
+}

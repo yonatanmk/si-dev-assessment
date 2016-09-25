@@ -1,6 +1,18 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="jumbotron center">
+  <h1 id="welcome">Welcome</h1>
+  <p>Use this application to send SMS messages</p>
 
-<%= form_tag("/sms/send", method: "post") do %>
-<!-- add form elements here -->
-<% end %>
+  <%= form_tag("/sms/send", method: "post") do %>
+    <%= label_tag(:phone_number, "Send To:") %>
+    <%= text_field_tag(:phone_number) %>
+    <%= label_tag(:message, "Message:") %>
+    <%= text_field_tag(:message) %>
+    <%= submit_tag("Send Message") %>
+  <% end %>
+
+  <form action="demo_form.asp">
+  Email: <input type="text" name="email" size="35"><br>
+  PIN: <input type="text" name="pin" maxlength="4" size="4"><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
