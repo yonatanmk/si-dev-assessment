@@ -81,8 +81,8 @@ Upon submitting your form, you will see an error being thrown. The error message
 
 Extra:
 It may be helpful at this point to see what data is submitted in the form submission. This application includes the `byebug` gem for this purpose. We can use this by adding the
-  `debugger`
-statement to set a breakpoint. This sets up a point to interact with the code in the terminal window where you have the server running (where you ran `rails s`). When the code execution reaches this point, an interactive debugging session is opened. Check this for yourself by adding the `debugger` command in the form action and resubmitting the form. Take a look here for more information on how to use `debugger`. In particular, inspect what is passed in as `params` to this action. Before going on, you'll want to remove the breakpoint.
+  `byebug`
+statement to set a breakpoint. This sets up a point to interact with the code in the terminal window where you have the server running (where you ran `rails s`). When the code execution reaches this point, an interactive debugging session is opened. Check this for yourself by adding the `byebug` command in the form action and resubmitting the form. Take a look here for more information on how to use `byebug`:  http://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-byebug-gem. In particular, inspect what is passed in as `params` to this action; in the interactive debugging session, just type `params` to have the debugger print out the value stored in that variable: do you see your form input? Before going on, you'll want to remove the breakpoint.
 
 Before going on, be sure to commit your changes:
   `git commit -a -m "Finishing Task 2"`
